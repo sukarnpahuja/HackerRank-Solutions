@@ -10,7 +10,7 @@ H = H/2
 BC_half = BC/2   #forming 90 degrees
 
 #determining the angle by cosine function
-angle = int(round(math.degrees(math.acos(adj/H))))
+angle = int(round(math.degrees(math.acos(BC_half/H))))
 
 angle = str(angle)
 
